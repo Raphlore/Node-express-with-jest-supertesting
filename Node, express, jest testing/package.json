@@ -1,0 +1,27 @@
+{
+  "name": "jest-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "express-validator": "^7.0.1"
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "Books.json"
+    ]
+  },
+  "devDependencies": {
+    "fs": "^0.0.1-security",
+    "supertest": "^6.3.4"
+  }
+}
